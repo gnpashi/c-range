@@ -47,7 +47,7 @@ export default function Crange() {
         <label>
           שם:
         </label>
-        <input type="text" name="input" />        
+        <input autoComplete='off' type="text" name="input" />        
         <input className="btn submit" type="submit" value="שליחה" />
       </form>
       <button className="btn start" onClick={startGame}>{startGameText}</button>
