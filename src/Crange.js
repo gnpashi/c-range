@@ -19,6 +19,7 @@ export default function Crange() {
     setStartGameText("התחלת המשחק והצגת רשימה")
   }
   function startGame() {
+    setNames(() => names.sort((a, b) => 0.5 - Math.random()))
     namesOl.current.classList.toggle("show")
     console.log(
         namesOl.current.querySelectorAll("li")
